@@ -10,6 +10,10 @@
   "block.testmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
   "block.testmod.magic_block": "Magic Block",
 
+  "tooltip.testmod.magic_block.tooltip": "This block is quite magical",
+  "tooltip.testmod.chisel.shift_down": "A Chisel that converts stones to their brick variants.\nCurrently included: \nStone -> Stone Bricks \nEndstone -> Endstone Bricks \nDeepslate -> Deepslate Bricks \nDirt -> Alexandrite Block",
+  "tooltip.testmod.shift_for_info": "Hold SHIFT for more info",
+
   "creativetab.testmod.alexandrite_items": "Alexandrite Items",
   "creativetab.testmod.alexandrite_blocks": "Alexandrite Blocks"
 }
