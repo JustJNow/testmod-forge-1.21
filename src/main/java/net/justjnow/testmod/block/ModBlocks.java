@@ -1,6 +1,7 @@
 package net.justjnow.testmod.block;
 
 import net.justjnow.testmod.TestMod;
+import net.justjnow.testmod.block.custom.AlexandriteLampBlock;
 import net.justjnow.testmod.block.custom.MagicBlock;
 import net.justjnow.testmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -71,6 +72,10 @@ public class ModBlocks {
 
     public static final  RegistryObject<TrapDoorBlock> ALEXANDRITE_TRAPDOOR = registerBlock("alexandrite_trapdoor",
             ()-> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final  RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
+            ()-> new AlexandriteLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(AlexandriteLampBlock.CLICKED) ? 15: 0)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn= BLOCKS.register(name, block);

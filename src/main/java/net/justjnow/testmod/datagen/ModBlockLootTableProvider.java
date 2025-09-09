@@ -43,6 +43,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get());
         dropSelf(ModBlocks.ALEXANDRITE_BUTTON.get());
+        dropSelf(ModBlocks.ALEXANDRITE_LAMP.get());
 
         dropSelf(ModBlocks.ALEXANDRITE_FENCE.get());
         dropSelf(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
