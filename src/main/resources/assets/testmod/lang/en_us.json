@@ -6,10 +6,25 @@
 
   "block.testmod.alexandrite_block": "Block of Alexandrite",
   "block.testmod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  
   "block.testmod.alexandrite_ore": "Alexandrite Ore",
   "block.testmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
-  "block.testmod.magic_block": "Magic Block",
 
+  "block.testmod.alexandrite_stairs": "Alexandrite Stairs",
+  "block.testmod.alexandrite_slab": "Alexandrite Slab",
+
+  "block.testmod.alexandrite_button": "Alexandrite Button",
+  "block.testmod.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
+
+  "block.testmod.alexandrite_fence": "Alexandrite Fence",
+  "block.testmod.alexandrite_fence_gate": "Alexandrite Fence Gate",
+  "block.testmod.alexandrite_wall": "Alexandrite Wall",
+
+  "block.testmod.alexandrite_door": "Alexandrite Door",
+  "block.testmod.alexandrite_trapdoor": "Alexandrite Trapdoor",
+  
+  "block.testmod.magic_block": "Magic Block",
+  
   "tooltip.testmod.magic_block.tooltip": "This block is quite magical",
   "tooltip.testmod.chisel.shift_down": "A Chisel that converts stones to their brick variants.\nCurrently included: \nStone -> Stone Bricks \nEndstone -> Endstone Bricks \nDeepslate -> Deepslate Bricks \nDirt -> Alexandrite Block",
   "tooltip.testmod.shift_for_info": "Hold SHIFT for more info",
