@@ -2,6 +2,7 @@
   "item.testmod.alexandrite" : "Alexandrite",
   "item.testmod.raw_alexandrite" : "Raw Alexandrite",
   "item.testmod.chisel": "Chisel",
+  "item.testmod.mystic_stew": "Mystic Stew",
 
   "block.testmod.alexandrite_block": "Block of Alexandrite",
   "block.testmod.raw_alexandrite_block": "Block of Raw Alexandrite",
