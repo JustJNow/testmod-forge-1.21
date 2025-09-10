@@ -2,6 +2,7 @@ package net.justjnow.testmod;
 
 import com.mojang.logging.LogUtils;
 import net.justjnow.testmod.block.ModBlocks;
+import net.justjnow.testmod.component.ModDataComponentTypes;
 import net.justjnow.testmod.item.ModCreativeModeTabs;
 import net.justjnow.testmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -55,6 +56,8 @@ public class TestMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
