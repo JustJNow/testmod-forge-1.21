@@ -75,6 +75,9 @@ public class ModItems {
     public static final RegistryObject<Item> KAUPEN_BOW =ITEMS.register("kaupen_bow",
             ()-> new ModBowItem(new Item.Properties().durability(500), 1.0f, 12, 10));
 
+    public static final RegistryObject<Item> LONGBOW =ITEMS.register("longbow",
+            ()-> new ModBowItem(new Item.Properties().durability(500), 3.0f, 120, 40));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

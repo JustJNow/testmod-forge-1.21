@@ -6,6 +6,7 @@ import net.justjnow.testmod.component.ModDataComponentTypes;
 import net.justjnow.testmod.item.ModCreativeModeTabs;
 import net.justjnow.testmod.item.ModItems;
 import net.justjnow.testmod.item.custom.ModBowItem;
+import net.justjnow.testmod.sound.ModSounds;
 import net.justjnow.testmod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -60,6 +61,7 @@ public class TestMod
         ModBlocks.register(modEventBus);
 
         ModDataComponentTypes.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -1,0 +1,33 @@
+{
+  "chisel_use": {
+    "subtitle": "Chisel is used",
+    "sounds": [
+      "testmod:chisel_use"
+    ]
+  },
+  "magic_block_break": {
+    "sounds": [
+      "testmod:magic_block_break"
+    ]
+  },
+  "magic_block_step": {
+    "sounds": [
+      "testmod:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "sounds": [
+      "testmod:magic_block_place"
+    ]
+  },
+  "magic_block_hit": {
+    "sounds": [
+      "testmod:magic_block_hit"
+    ]
+  },
+  "magic_block_fall": {
+    "sounds": [
+      "testmod:magic_block_fall"
+    ]
+  }
+}

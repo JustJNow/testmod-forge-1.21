@@ -15,6 +15,7 @@ public class ModItemProperties {
                 (itemStack, clientLevel, livingEntity, i) -> itemStack.get(ModDataComponentTypes.COORDINATES.get()) != null ? 1f : 0f);
 
         makeCustomBow(ModItems.KAUPEN_BOW.get());
+        makeCustomBow(ModItems.LONGBOW.get());
     }
 
     private static void makeCustomBow(Item item){

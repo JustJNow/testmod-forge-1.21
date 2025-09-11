@@ -41,6 +41,7 @@ public class ModCreativeModeTabs {
                         //output.accept(ModItems.MYSTIC_STEW.get());
 
                         output.accept(ModItems.KAUPEN_BOW.get());
+                        output.accept(ModItems.LONGBOW.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexandrite_blocks_tab",

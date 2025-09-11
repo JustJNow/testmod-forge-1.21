@@ -1,0 +1,6 @@
+{
+  "parent": "testmod:item/longbow",
+  "textures": {
+    "layer0": "testmod:item/longbow_pulling_2"
+  }
+}
