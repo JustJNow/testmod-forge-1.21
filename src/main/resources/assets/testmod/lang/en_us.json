@@ -9,6 +9,12 @@
   "item.testmod.alexandrite_axe": "Alexandrite Axe",
   "item.testmod.alexandrite_shovel": "Alexandrite Shovel",
   "item.testmod.alexandrite_hoe": "Alexandrite Hoe",
+  "item.testmod.alexandrite_hammer": "Alexandrite Hammer",
+
+  "item.testmod.alexandrite_helmet": "Alexandrite Helmet",
+  "item.testmod.alexandrite_chestplate": "Alexandrite Chestplate",
+  "item.testmod.alexandrite_leggings": "Alexandrite Leggings",
+  "item.testmod.alexandrite_boots": "Alexandrite Boots",
 
   "block.testmod.alexandrite_block": "Block of Alexandrite",
   "block.testmod.raw_alexandrite_block": "Block of Raw Alexandrite",
