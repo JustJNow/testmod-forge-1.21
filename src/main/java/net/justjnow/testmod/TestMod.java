@@ -5,6 +5,8 @@ import net.justjnow.testmod.block.ModBlocks;
 import net.justjnow.testmod.component.ModDataComponentTypes;
 import net.justjnow.testmod.item.ModCreativeModeTabs;
 import net.justjnow.testmod.item.ModItems;
+import net.justjnow.testmod.item.custom.ModBowItem;
+import net.justjnow.testmod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -98,8 +100,8 @@ public class TestMod
     public static class ClientModEvents
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
+        public static void onClientSetup(FMLClientSetupEvent event) {
+                ModItemProperties.addCustomItemProperties();
         }
     }
 }

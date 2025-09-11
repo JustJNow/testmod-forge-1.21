@@ -16,6 +16,15 @@
   "item.testmod.alexandrite_leggings": "Alexandrite Leggings",
   "item.testmod.alexandrite_boots": "Alexandrite Boots",
 
+  "item.testmod.alexandrite_horse_armor": "Alexandrite Horse Armor",
+
+  "item.testmod.kaupen_armor_trim_smithing_template": "Smithing Template",
+
+  "item.testmod.kaupen_bow": "Kaupen Bow",
+
+  "trim_pattern.testmod.kaupen": "Kaupen Armor Trim",
+  "trim_material.testmod.alexandrite": "Alexandrite Material",
+
   "block.testmod.alexandrite_block": "Block of Alexandrite",
   "block.testmod.raw_alexandrite_block": "Block of Raw Alexandrite",
   
